@@ -36,7 +36,9 @@ const Hero = () => {
     </div>
 </div>
 {/* right side contents */}
-      <div>
+      <div className='md:w-1/2 flex justify-center'>
+      <div className="relative w-64 h-64 md:w-80 md:h-80"></div>
+
        
       </div>
     </motion.div>
