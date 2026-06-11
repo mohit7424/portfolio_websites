@@ -1,4 +1,4 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import profileImg from '../assets/profile.png';
 import projectImg1 from '../assets/project1.avif';
@@ -42,37 +42,37 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    tags: ['React', 'Vue.js', 'Tailwind CSS', 'Framer Motion']
   },
   {
     title: 'Backend Development',
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    tags: ['Node.js', 'Laravel']
   },
   {
     title: 'Database Management',
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+    tags: ['MongoDB', 'PostgreSQL', 'MySQL',]
   },
-  {
-    title: 'Mobile Development',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-  },
-  {
-    title: 'Cloud & DevOps',
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  },
+  // {
+  //   title: 'Mobile Development',
+  //   icon: FaMobileAlt,
+  //   description: 'Building cross-platform mobile applications with modern tools.',
+  //   tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
+  // },
+  // {
+  //   title: 'Cloud & DevOps',
+  //   icon: FaCloud,
+  //   description: 'Deploying and managing applications in cloud environments.',
+  //   tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
+  // },
   {
     title: 'Tools & Technologies',
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest', 'vs code']
   }
 ];
 
