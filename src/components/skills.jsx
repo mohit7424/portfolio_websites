@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
 import { skills } from '../assets/assets';
-
-
 const Skills = () => {
   return (
     <motion.div

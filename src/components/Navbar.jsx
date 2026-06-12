@@ -15,7 +15,7 @@ const Navbar = () => {
       </a>
   </div> 
   <div className="hidden md:flex space-x-10">
-    <a href="#home" className="relative text-white-80
+    <a href="#home" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Home</span>
       <span className='absolute left-0 -bottom-1 
@@ -23,7 +23,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full'>
       </span>
     </a>
-    <a href="#about" className="relative text-white-80
+    <a href="#about" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>About</span>
       <span className='absolute left-0 -bottom-1 
@@ -31,7 +31,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full'>
       </span>
     </a>
-    <a href="#skills" className="relative text-white-80
+    <a href="#skills" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Skill</span>
       <span className='absolute left-0 -bottom-1 
@@ -39,7 +39,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full'>
       </span>
     </a>
-    <a href="#projects" className="relative text-white-80
+    <a href="#projects" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Projects</span>
       <span className='absolute left-0 -bottom-2 
@@ -47,7 +47,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full '>
       </span>
     </a>
-     <a href="#experience" className="relative text-white-80
+    <a href="#experience" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Experience</span>
       <span className='absolute left-0 -bottom-2 
@@ -55,7 +55,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full '>
       </span>
     </a>
-    <a href="#contact" className="relative text-white-80
+    <a href="#contact" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>contact</span>
       <span className='absolute left-0 -bottom-2 
@@ -79,16 +79,16 @@ const Navbar = () => {
      {/* mobile menu */}
      {
       showMenu && (
-        <div className='md:hidden bg-dark-300 h-screen rounded-lg p-4 flex-col space-y-4 text-center justify-center items-center flex '>
-           <a onClick={()=>setShowMenu(!showMenu)} href="#home" className="relative text-white-80
+          <div className='md:hidden absolute left-0 top-full w-full bg-dark-300 rounded-b-lg p-4 flex-col space-y-4 text-center items-center flex max-h-[calc(100vh-4rem)] overflow-y-auto shadow-lg'>
+            <a onClick={()=>setShowMenu(!showMenu)} href="#home" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Home</span>
-      <span className='absolute left-0 }-bottom-1 
+      <span className='absolute left-0 -bottom-1 
       block w-0 h-0.5 bg-purple transition-all 
       duration-300 group-hover:w-full'>
       </span>
     </a>
-    <a onClick={()=>setShowMenu(!showMenu)} href="#about" className="relative text-white-80
+    <a onClick={()=>setShowMenu(!showMenu)} href="#about" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>About</span>
       <span className='absolute left-0 -bottom-1 
@@ -96,7 +96,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full'>
       </span>
     </a>
-    <a onClick={()=>setShowMenu(!showMenu)} href="#skill" className="relative text-white-80
+    <a onClick={()=>setShowMenu(!showMenu)} href="#skills" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Skill</span>
       <span className='absolute left-0 -bottom-1 
@@ -104,7 +104,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full'>
       </span>
     </a>
-    <a onClick={()=>setShowMenu(!showMenu)} href="#projects" className="relative text-white-80
+    <a onClick={()=>setShowMenu(!showMenu)} href="#projects" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Projects</span>
       <span className='absolute left-0 -bottom-2 
@@ -112,7 +112,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full '>
       </span>
     </a>
-     <a onClick={()=>setShowMenu(!showMenu)} href="#home" className="relative text-white-80
+    <a onClick={()=>setShowMenu(!showMenu)} href="#experience" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Experience</span>
       <span className='absolute left-0 -bottom-2 
@@ -120,7 +120,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full '>
       </span>
     </a>
-    <a onClick={()=>setShowMenu(!showMenu)} href="#contact" className="relative text-white-80
+    <a onClick={()=>setShowMenu(!showMenu)} href="#contact" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>contact</span>
       <span className='absolute left-0 -bottom-2 

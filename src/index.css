@@ -29,3 +29,18 @@
   from, to { border-color: transparent }
   50%      { border-color: #8B5CF6; }
 }
+
+html, body, #root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .typewriter {
+    width: auto;
+    white-space: normal;
+    overflow: visible;
+    border-right: 0;
+    animation: none;
+  }
+}

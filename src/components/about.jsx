@@ -25,7 +25,6 @@ const About = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.6, ease: 'easeOut' }}
                         viewport={{ once: true }}
-                        className="w-1/2 "
                         className='relative w-64 h-64 md:w-80 md:h-80 shrink-0'
                     >
 
@@ -37,9 +36,9 @@ const About = () => {
                         />
                     </motion.div>
                     <div className='rounded-2xl p-8 md:w-1/2'>
-                    <p  className="text-2xl font semibold mb-6 ">My journey</p>
+                    <p  className="text-2xl font-semibold mb-6 ">My journey</p>
                     <p  className="text-gray-400 mb-6">
-                        'Im a passionate full-stack developer with 
+                        I'm a passionate full-stack developer with 
                         over 5 years of experience creating 
                         digital solutions for businesses
                          around the world. My journey
@@ -56,7 +55,7 @@ const About = () => {
 
                     </div>
                 </div>
-                 <div className='flex-1 grid gap-6 md:grid-cols-3 mt-15'>
+                 <div className='flex-1 grid gap-6 md:grid-cols-3 mt-16'>
                         {aboutInfo.map((item) => {
                             const Icon = item.icon;
 
