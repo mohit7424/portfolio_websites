@@ -47,7 +47,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full '>
       </span>
     </a>
-    <a href="#experience" className="relative text-white/80
+    <a href="#work" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Experience</span>
       <span className='absolute left-0 -bottom-2 
@@ -112,7 +112,7 @@ const Navbar = () => {
       duration-300 group-hover:w-full '>
       </span>
     </a>
-    <a onClick={()=>setShowMenu(!showMenu)} href="#experience" className="relative text-white/80
+    <a onClick={()=>setShowMenu(!showMenu)} href="#work" className="relative text-white/80
      hover:text-purple  transition duration-300 inline-block group">
       <span>Experience</span>
       <span className='absolute left-0 -bottom-2 
